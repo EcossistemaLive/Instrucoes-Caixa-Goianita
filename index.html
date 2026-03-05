@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apresentação Operacional - Casa Goianita</title>
+    <title>Treinamento Oficial: Operadoras de Caixa - Casa Goianita</title>
 
     <!-- Google Fonts: Inter para Títulos, Poppins para Corpo -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -148,7 +148,7 @@
         header p {
             color: var(--live-text-secondary);
             font-size: 1.2rem;
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
             font-weight: 300;
         }
@@ -214,6 +214,23 @@
             color: #ffffff;
         }
 
+        .alert-box {
+            background: rgba(255, 69, 58, 0.1);
+            border-left: 4px solid #ff453a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            color: #ffcccc;
+        }
+
+        .alert-box h3 {
+            color: #ff453a;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
         /* --- Footer --- */
         footer {
             text-align: center;
@@ -244,52 +261,105 @@
         <!-- Cabeçalho -->
         <header>
             <div class="logo-container">
-                <i class="fa-solid fa-layer-group card-icon" style="margin-right: 15px;"></i>
+                <i class="fa-solid fa-graduation-cap card-icon" style="margin-right: 15px;"></i>
                 <h2 style="font-size: 1.5rem; letter-spacing: 0;">Ecossistema Live</h2>
             </div>
-            <h1 class="kinetic-text">Arquitetura de Apresentação</h1>
-            <p>Modelo oficial de apresentação baseado nos Tokens Visuais V6.0 para projetos e operações da Casa
-                Goianita.</p>
+            <h1 class="kinetic-text">Instruções para Caixa</h1>
+            <p>Treinamento oficial para Operadoras de Caixa e Vendedoras da Casa Goianita. Diretrizes operacionais do
+                sistema Olist ERP (Módulo PDV) e regras inegociáveis do Departamento Financeiro.</p>
         </header>
 
         <!-- Sessão Principal -->
         <main>
             <div class="glass-card">
                 <div class="card-header">
-                    <i class="fa-solid fa-chart-line card-icon"></i>
-                    <h2 class="card-title">Módulo de Visão Geral</h2>
+                    <i class="fa-solid fa-desktop card-icon"></i>
+                    <h2 class="card-title">1. Fluxo de Vendas no PDV (Sistema Olist ERP)</h2>
                 </div>
                 <p style="color: var(--live-text-secondary); font-size: 1.1rem; margin-bottom: 25px;">
-                    Esta é a estrutura base para a criação de documentações operacionais e relatórios executivos.
+                    O processo de vendas deve seguir rigorosamente as etapas do ERP para garantir a integridade do
+                    estoque e do financeiro.
                 </p>
+
+                <h3 style="margin-bottom: 15px; color: var(--live-accent);">Papel da Vendedora:</h3>
+                <ul class="list-items" style="margin-bottom: 30px;">
+                    <li><strong>Criação do Pedido:</strong> Inicie o pedido no sistema através do PDV ou painel de
+                        Vendas.</li>
+                    <li><strong>Pagamento no Caixa:</strong> Se o cliente for se dirigir ao caixa para realizar o
+                        pagamento, clique obrigatoriamente na opção <strong>Salvar para depois</strong>.</li>
+                </ul>
+
+                <h3 style="margin-bottom: 15px; color: var(--live-accent);">Papel da Operadora de Caixa:</h3>
                 <ul class="list-items">
-                    <li><strong>Design System:</strong> Utilização da metodologia Glassmorphism e gradientes cinéticos.
+                    <li><strong>Faturamento:</strong> Acesse o módulo financeiro do frente de caixa e clique em
+                        <strong>Faturar pré-venda</strong>.</li>
+                    <li><strong>Busca:</strong> Localize a venda utilizando o CPF/CNPJ, número do pedido ou nome do
+                        cliente.</li>
+                    <li><strong>Conferência e Finalização:</strong>
+                        <ul style="list-style-type: circle; margin-left: 20px; margin-top: 10px; color: #cbd5e1;">
+                            <li>Confirme os itens com o cliente.</li>
+                            <li>Lance o <strong>exato método de pagamento</strong>.</li>
+                            <li>Clique em <strong>Finalizar</strong> para a emissão do cupom fiscal ou NFe.</li>
+                            <li><em>Nota:</em> A liberação de descontos exige a senha de gerente (atalho
+                                <code>Ctrl+Enter</code>).</li>
+                        </ul>
                     </li>
-                    <li><strong>Integração:</strong> Preparado para receber IFrames e embeds de ferramentas externas.
-                    </li>
-                    <li><strong>Responsividade:</strong> Totalmente adaptativo para visualização em dispositivos móveis
-                        e desktop.</li>
-                    <li><strong>Tipografia:</strong> Famílias Inter e Poppins ativadas via Google Fonts.</li>
                 </ul>
             </div>
 
             <div class="glass-card">
                 <div class="card-header">
-                    <i class="fa-solid fa-bullseye card-icon"></i>
-                    <h2 class="card-title">Próximos Passos</h2>
+                    <i class="fa-solid fa-money-check-dollar card-icon"></i>
+                    <h2 class="card-title">2. Regras e Orientações do Departamento Financeiro</h2>
                 </div>
-                <ul class="list-items">
-                    <li>Validar o repositório Github gerado.</li>
-                    <li>Publicar no Github Pages.</li>
-                    <li>Integrar o conteúdo do treinamento e manuais operativos.</li>
+                <p style="color: var(--live-text-secondary); font-size: 1.1rem; margin-bottom: 25px;">
+                    Para evitar divergências financeiras e garantir a correta análise de receitas, todas as operadoras
+                    devem cumprir as seguintes normativas inegociáveis.
+                </p>
+
+                <h3 style="margin-bottom: 10px; color: var(--live-accent);">A. Documentação e Fechamento</h3>
+                <ul class="list-items" style="margin-bottom: 20px;">
+                    <li><strong>Relatório Olist:</strong> É obrigatório encaminhar diariamente o relatório de vendas do
+                        Olist para a conferência dos valores do caixa.</li>
+                    <li><strong>Documentação Completa:</strong> Envie para conferência <strong>apenas</strong> os caixas
+                        que estiverem com a documentação 100% completa, incluindo: Dinheiro, Comprovantes de cartões,
+                        Cartos, Vale-créditos e CRs.</li>
+                    <li><strong>Capa do Caixa Antiga:</strong> Continue utilizando a <strong>capa do modelo antigo de
+                            caixa</strong> para facilitar a conciliação e identificação de divergências.</li>
+                    <li><strong>Sincronia de Datas:</strong> Em hipótese alguma devem ser fechados caixas contendo
+                        valores que não tenham sido faturados ou registrados na <strong>mesma data</strong>.</li>
                 </ul>
+
+                <h3 style="margin-bottom: 10px; color: var(--live-accent);">B. Descontos e Ajustes de Valores</h3>
+                <ul class="list-items" style="margin-bottom: 20px;">
+                    <li><strong>Registro de Desconto:</strong> Todo e qualquer desconto deve ser registrado estritamente
+                        no <strong>momento da emissão da venda</strong> no ERP.</li>
+                    <li><strong>Proibição de Ajustes:</strong> É <strong>estritamente proibido</strong> realizar ajustes
+                        de valores no momento do pagamento na maquineta. O valor na maquineta deve ser exato ao valor
+                        final do sistema (mesmo para centavos).</li>
+                </ul>
+
+                <div class="alert-box">
+                    <h3><i class="fa-solid fa-triangle-exclamation"></i> C. Situações Problema a Serem Evitadas</h3>
+                    <p style="margin-bottom: 10px;">As seguintes práticas foram identificadas como geradoras de
+                        inconsistências financeiras graves e são <strong>expressamente proibidas</strong>:</p>
+                    <ul class="list-items" style="margin-top: 10px;">
+                        <li><strong>Vendas Pessoais na Maquineta:</strong> Não realize vendas pessoais ou de terceiros
+                            nas maquinetas da loja.</li>
+                        <li><strong>Segundo Caixa:</strong> É proibida a emissão de duplicatas em um "segundo caixa"
+                            (ex: Castor Utilidades). Ponto central de venda é exclusivo no sistema.</li>
+                        <li><strong>Registro Omitido de Cartos/Vale-crédito:</strong> Diferenças de valores relacionadas
+                            a Cartos ou vale-créditos <strong>NÃO</strong> podem ser passadas diretamente na maquineta
+                            sem o devido registro prévio no sistema.</li>
+                    </ul>
+                </div>
             </div>
         </main>
 
         <!-- Footer -->
         <footer>
             Ecossistema &copy; 2026 <span>Live Consultoria | Casa Goianita</span>. Plataforma desenhada para performance
-            omnicanal.
+            omnicanal. Dúvidas sobre exceções de caixa devem ser reportadas à gerência.
         </footer>
     </div>
 
